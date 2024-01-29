@@ -1,0 +1,109 @@
+
+* {
+    font-family: "Montserrat";
+    scroll-behavior: smooth;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-image: url(img/bg1.jpg);
+    background-size: 100% auto;
+}
+
+h1 {
+    font-family: 500;
+    font-size: 30px;
+    margin: 0 0 16px 0;
+}
+
+nav > img {
+    margin-left: 16px;
+    height: 40px;
+    /* animation: flash 1s  infinite; */
+}
+
+section {
+    padding: 64px 64px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 64px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 5;
+}
+
+#header h1 {
+    margin: 0;
+    /* animation: flash 1s  infinite; */
+}
+
+#landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 32px;
+    /* border: 3px solid #FFC108;
+    padding: 64px 32px; */
+}
+
+#landing > div {
+    width: 50%;
+}
+
+#landing p {
+    margin-bottom: 32px;
+}
+
+.detail {
+    border: 4px solid wheat;
+    padding: 40px 32px;
+    box-shadow: 2px 4px 3px gray;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.assignment {
+    border: 4px solid wheat;
+    padding: 64px 32px;
+    box-shadow: 2px 4px 3px gray;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    font-size: medium;
+}
+
+button {
+
+    background-color: #FFC108;
+    cursor: pointer;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;;
+    padding: 8px 24px;
+}
+
+#result {
+    padding-top: 0px;
+}
+
+.hasil {
+    /* border: 3px solid blue; */
+    /* padding: 32px 32px; */
+    /* display: inline-block; */
+    /* background-color: bisque; */
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 2px 4px 3px gray;
+}

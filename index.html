@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <title>Dibimbing Mini Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="header">
+        <h1>Digital Skill Fair 23.0</h1>
+        <nav>
+            <img src="img/logo-dibimbing.png" alt="dibimbing logo">
+        </nav>
+    </header>
+
+    <section id="landing">
+        <div class="assignment">
+            <h1>Assignment Portofolio Web Development</h1>
+            <p>Program Dapat 
+                menampilkan nilai huruf dari nilai 
+                angka siswa dan mengecek apakah 
+                nilai tersebut genap atau ganjil.</p>
+            <div>
+                <label for="inputNilai">Nilai Siswa :</label>
+                <input type="number" id="nilai" placeholder="Masukkan Nilai Siswa" required>
+                <button type="button" onclick="hasilHitung()">Hitung</button>
+            </div>
+            <div class="hasil">
+                <h2>Hasil</h2>
+                <p id="outputNilai"></p>
+                <p id="outputHuruf"></p>
+                <p id="outputBilangan"></p>
+            </div>
+        </div>
+        <div class="detail">
+            <h1>Penilaian Siswa</h1>
+            <p>
+                A = 85 - 100 <br>
+                B = 75 - 84 <br>
+                C = 60 - 74 <br>
+                D = 0 - 60
+            </p>
+            <p>
+                Contoh:
+                Nilai siswa: 80
+            </p>
+            <p>
+                Output: <br>
+                Nilai angka: 80 <br>
+                Nilai huruf: B <br>
+                Bilangan Genap
+            </p>
+        </div>
+        
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
